@@ -26,5 +26,13 @@ public class TypeConversionTest {
         //iNum1의 경우 둘다 먼저 integer로 변환 1+0 = 1
         //iNum2의 경우 1.2+0.9 = 2.1 그래서 2.1을 integer로 바꿨으니까 2만 남음.
 
+        int myNum = 10;
+        int yourNum = 20;
+
+        //myNum = myNum + yourNum;
+        myNum += yourNum;
+        System.out.println(myNum);
+
+
     }
 }
